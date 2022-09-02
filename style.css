@@ -41,7 +41,6 @@ header {
     height: 334px;
     text-align: center;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
-    ;
 }
 
 header img {
@@ -271,7 +270,7 @@ main {
     background-image: url(/assets/icons/batata.svg);
 }
 
-.producto-detail--title {
+.product-detail--title {
     width: 90%;
     min-width: 288px;
     height: auto;
@@ -280,7 +279,7 @@ main {
     text-align: center;
 }
 
-.producto-detail--title h2 {
+.product-detail--title h2 {
     margin-bottom: 20px;
     font-size: 2.4rem;
     font-weight: bold;
@@ -288,8 +287,47 @@ main {
     color: var(--just-white);
 }
 
-.producto-detail--title p {
+.product-detail--title p {
     margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    text-align: left;
+}
+
+.product-detail--card .clock {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(/assets/icons/clock.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product--card-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+#product--card-body {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
