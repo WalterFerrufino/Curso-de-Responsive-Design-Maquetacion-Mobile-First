@@ -295,7 +295,10 @@ main {
     color: #808080;
 }
 
-.product-detail--card {
+.product-detail--card,
+.product-detail--card2,
+.product-detail--card3,
+.product-detail--card4 {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
@@ -317,9 +320,42 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+}.product-detail--card2 .eye {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(/assets/icons/eye.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}.product-detail--card3 .money {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(/assets/icons/dollar-sign.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}.product-detail--card4 .check {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(/assets/icons/check-circle.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-#product--card-title {
+#product--card-title,
+#product--card-title2,
+#product--card-title3,
+#product--card-title4 {
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -327,9 +363,62 @@ main {
     color: var(--just-white);
 }
 
-#product--card-body {
+#product--card-body,
+#product--card-body2,
+#product--card-body3,
+#product--card-body4 {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+
+.bitcoin-img-container {
+    width: 100%;
+    min-width: 320;
+    height: 50vh;
+    background-image: url(/assets/img/bitcoinbaby2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.bitcoin-img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.plans--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.plans--title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.plans--title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
 }
