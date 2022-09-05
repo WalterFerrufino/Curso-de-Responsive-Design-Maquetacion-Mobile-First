@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/tablet.css" media="(min-width: 930px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
@@ -94,17 +95,44 @@
             </div>
             <section class="plans-container--slider">
                 <article class="plans-container--card">
-                    <p>Recomendado</p>
-                    <div>
-                        <h3>Pago Anual</h3>
-                        <p><sup>$</sup> 99</p>
-                        <p>* Ahorras $129 comparado al plan mensual</p>
-                        <button>Escoger este <span></span></button>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p id="plan-card--price"><span>$</span> 49</p>
+                        <p id="plan-card--saving">* Ahorras $129 comparado al plan mensual</p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container--card">
+                    <p id="recommended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p id="plan-card--price2"><span>$</span> 99</p>
+                        <p id="plan-card--saving2">* Ahorras $129 comparado al plan mensual</p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container--card">
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p id="plan-card--price3"><span>$</span> 199</p>
+                        <p id="plan-card--saving3">* Ahorras $129 comparado al plan mensual</p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
                     </div>
                 </article>
             </section>            
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="#">LinedIn</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="/assets/img/logo-footer.svg" alt="Logo de Batatabit 2020">
+        </section>
+    </footer>
 </body>
 </html>
