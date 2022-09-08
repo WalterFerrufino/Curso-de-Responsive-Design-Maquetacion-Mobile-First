@@ -203,7 +203,7 @@ main {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
-    padding-left: 20px;
+    text-align: center;
     color: var(--grey);
     background-color: var(--just-white);
 }
@@ -426,7 +426,6 @@ main {
 .main-plans-container {
     width: 100%;
     min-width: 320px;
-    padding-bottom: 70px;
     text-align: center;
 }
 
@@ -454,7 +453,15 @@ main {
     color: #757575;
 }
 
-.plans-container--slider, .main-tables-container {
+.plans-container--slider {
+    display: flex;
+    height: 320px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.main-tables-container {
     display: flex;
     height: 400px;
     overflow-x: scroll;
