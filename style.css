@@ -159,8 +159,14 @@ main {
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 45px;
+    padding: 15px 0;
     font-family: "Inter", sans-serif;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    scroll-snap-align: center;
+    text-align: left;
 }
 
 .main-currency-table .currency-table--title, .main-comisions-table .comisions-table--title {
@@ -169,6 +175,7 @@ main {
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
+    text-align: center;
 }
 .main-comisions-table .comisions-table--title {
     margin-bottom: 15px;
@@ -196,6 +203,7 @@ main {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
+    padding-left: 20px;
     color: var(--grey);
     background-color: var(--just-white);
 }
@@ -250,6 +258,7 @@ main {
     margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
+    text-align: center;
     background-color: var(--soft-orange);
     border-radius: 8px;
 }
@@ -445,9 +454,9 @@ main {
     color: #757575;
 }
 
-.plans-container--slider {
+.plans-container--slider, .main-tables-container {
     display: flex;
-    height: 316px;
+    height: 400px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
