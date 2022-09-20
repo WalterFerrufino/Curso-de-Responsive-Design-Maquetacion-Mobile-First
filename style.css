@@ -236,7 +236,7 @@ main {
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url(/assets/icons/trending-down.svg);
+    background-image: url("../assets/icons/trending-down.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -246,7 +246,7 @@ main {
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url(/assets/icons/trending-up.svg);
+    background-image: url("../assets/icons/trending-up.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -298,7 +298,7 @@ main {
     height: 25px;
     top: -10px;
     left: calc(50% - 20px);
-    background-image: url(/assets/icons/batata.svg);
+    background-image: url("../assets/icons/batata.svg");
 }
 
 .product-detail--title {
@@ -347,7 +347,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(/assets/icons/clock.svg);
+    background-image: url("../assets/icons/clock.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -357,7 +357,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(/assets/icons/eye.svg);
+    background-image: url("../assets/icons/eye.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -367,7 +367,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(/assets/icons/dollar-sign.svg);
+    background-image: url("../assets/icons/dollar-sign.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -377,7 +377,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(/assets/icons/check-circle.svg);
+    background-image: url("../assets/icons/check-circle.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -408,7 +408,7 @@ main {
     width: 100%;
     min-width: 320;
     height: 50vh;
-    background-image: url(/assets/img/bitcoinbaby2x.jpg);
+    background-image: url("../assets/img/bitcoinbaby2x.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -550,7 +550,7 @@ main {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(/assets/icons/orange-right-arrow.svg);
+    background-image: url("../assets/icons/orange-right-arrow.svg");
     vertical-align: text-bottom;
 }
 
